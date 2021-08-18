@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1048px){
+        .firstcontainer{
+            display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin: 10vh 9.5vw;
+        }
+        .rightbox img{
+            width: 300px; 
+        }
+        .rightbox{
+            margin: 80px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* display: none; */
+        }
+        .backgroundleftimage{
+            display: none;
+        }
+        .backgroundrightimage{
+            display: none;
+        }
+        .leftboxupper{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+        .leftbox{
+            width: auto;
+        }
+        .rightbox{
+            width: auto;
+        }
+        .secondcontainer{
+            width: 100%;
+        }
+        #second-id-container{
+            margin: 0vh 4vw;
+        }
+        .thirdcontainer{
+            margin-top: 50vh;
+        }
+        .secondcontainer.box1.p{
+            text-align: center;
+        }
+        .left-image{
+            display: none;
+        }
+        .right-motorcycle-image{
+            display: none;
+        }
+}
+@media only screen and (max-width: 568px){
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-flow: column;
+    }
+    /* .secondcontainer{
+        width: 30vw;
+    } */
+    .box1 p {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .secondcontainerbuttons {
+        margin: 22px 10px;
+        /* padding: 13px 0x; */
+        border: 0px;
+        border-radius: 22px;
+        background-color: #A4C8E3;
+        color: #192C70;
+        font-size: 16px;
+        font-weight: bold;
+        width: 118px;
+        height: 38px;
+    }
+    .box2buttons{
+        width: 80vw;
+
+    }
+}

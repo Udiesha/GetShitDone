@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sunflower', sans-serif;
+}
+
+body {
+    background: radial-gradient(95.9% 123.87% at 84.38% 18.46%, rgba(156, 196, 225, 0.82) 19.31%, rgba(255, 255, 255, 0.1804) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 25px;
+}
+
+#logo-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 150vh;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.signup-box {
+    width: 525px;
+    height: 820px;
+    border-radius: 42px;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.signup-heading {
+    font-weight: unset;
+    text-align: center;
+    font-size: 50px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.input-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 23px;
+}
+
+.input-items label {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgba(25, 44, 112, 0.9);
+}
+
+.inp-elements {
+    height: 45px;
+    border-radius: 60px;
+    padding-left: 10px;
+    border: 4px solid rgba(156, 196, 226, 0.64);
+    background-color: rgba(210, 224, 239, 0.32);
+}
+
+.submit {
+    margin-top: 23px;
+    box-sizing: border-box;
+}
+
+.submit button {
+    border: 3px solid white;
+    background: transparent;
+}
+
+.submit button svg {
+    width: 85px;
+    cursor: pointer;
+}
+
+.goto-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.goto-login p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a.login-link:hover {
+    text-decoration: underline rgb(25, 180, 228);
+    font-weight: bold;
+}

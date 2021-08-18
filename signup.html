@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo-box">
+        <h1 id="logo-heading">Logo</h1>
+    </div>
+    <section class="content">
+        <div class="signup-box">
+            <h1 class="signup-heading">Create Account</h1>
+            <form action="signup.py" method="get" class="signup-form">
+                <div class="input-items">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" required class="inp-elements">
+                </div>
+                <div class="input-items">
+                    <label for="contact">Mobile Number</label>
+                    <input type="text" id="contact" required class="inp-elements">
+                </div>
+                <div class="input-items">
+                    <label for="mail">Email ID</label>
+                    <input type="email" id="mail" required class="inp-elements">
+                </div>
+                <div class="input-items">
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" required class="inp-elements">
+                </div>
+                <div class="input-items">
+                    <label for="confirm-pw">Confirm Password</label>
+                    <input type="password" id="confirm-pwd" required class="inp-elements">
+                </div>
+                <div class="submit">
+                    <button type="submit">
+                        <svg width="118" height="91" viewBox="0 0 118 91" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="58" cy="46" r="45" fill="#192C70" />
+                            <path
+                                d="M81.7678 47.7678C82.7441 46.7915 82.7441 45.2085 81.7678 44.2322L65.8579 28.3223C64.8816 27.346 63.2986 27.346 62.3223 28.3223C61.346 29.2986 61.346 30.8816 62.3223 31.8579L76.4645 46L62.3223 60.1421C61.346 61.1184 61.346 62.7014 62.3223 63.6777C63.2986 64.654 64.8816 64.654 65.8579 63.6777L81.7678 47.7678ZM36 48.5H80V43.5H36V48.5Z"
+                                fill="#F1F5FA" />
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="goto-login">
+                <p>Already have an account ? </p>
+                <a href="login.html" class="login-link">Login up now</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
